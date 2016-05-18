@@ -1,3 +1,8 @@
+this is a templified verision of Louisa Barrett's Resume Theme
+
+
+#Louisa's Notes:
+
 ## Resume Redesign
 
 A few notes on the design decisions behind the adaptation of my print resume to a static HTML/CSS page.
@@ -16,4 +21,4 @@ On my print resume, I ran my name and links to GitHub and LinkedIn across the to
 
 Web (on left) and Print (on right)
 
-![Compare](images/resume_compare.png)
+![Compare](img/resume_compare.png)
