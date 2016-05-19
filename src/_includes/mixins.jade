@@ -1,0 +1,23 @@
+mixin section-head(title)
+    h2.category-headers #{title}
+    hr
+
+mixin experience(corp, location, title, dates)
+    p.primary-titles #{corp} |
+     span.location #{location}
+    p.category-details
+        if (title)
+            span.title #{title} <br/>
+            span.dates #{dates}
+        else
+            span.dates #{dates}
+    if block
+        p.category-description
+            block
+
+mixin code(title, url)
+    a.primary-titles(href='https://#{url}', target='_blank')
+      |  #{title}
+      p.links #{url}
+    p.category-description
+        block
