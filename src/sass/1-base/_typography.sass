@@ -5,13 +5,24 @@
   &:hover
     color: $primary-color
     
-.links-container > .links i.fa
+.links-container > .links .fa
     margin-bottom: -.2em
     padding-right: .3em
     padding-left: .3em
     font-size: 1.7em
+    &.fa-github
+        color: #000
+        &:hover
+            background: #000
+            color: $background
+    &.fa-linkedin-square
+        color: $linkedin-blue
+        &:hover
+            color: #000
+        
 
 hr
   border: 1px dotted $accent
   border-style: none none dotted
   margin: 0 10% 0 0
+  

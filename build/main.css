@@ -7,11 +7,20 @@
   .links:hover {
     color: #df723e; }
 
-.links-container > .links i.fa {
+.links-container > .links .fa {
   margin-bottom: -.2em;
   padding-right: .3em;
   padding-left: .3em;
   font-size: 1.7em; }
+  .links-container > .links .fa.fa-github {
+    color: #000; }
+    .links-container > .links .fa.fa-github:hover {
+      background: #000;
+      color: #fff; }
+  .links-container > .links .fa.fa-linkedin-square {
+    color: #0077B5; }
+    .links-container > .links .fa.fa-linkedin-square:hover {
+      color: #000; }
 
 hr {
   border: 1px dotted #A7A9AB;
@@ -20,7 +29,7 @@ hr {
 
 body {
   background-color: #fff;
-  font-family: 'Gudea', sans-serif;
+  font-family: "Gudea", sans-serif;
   margin: 5% 15% 5% 15%; }
 
 .category-description, .category-description-main, .category-details {
