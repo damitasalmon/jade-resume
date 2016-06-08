@@ -15,12 +15,14 @@
   .links-container > .links .fa.fa-github {
     color: #000; }
     .links-container > .links .fa.fa-github:hover {
-      background: #000;
-      color: #fff; }
+      color: #df723e; }
   .links-container > .links .fa.fa-linkedin-square {
     color: #0077B5; }
     .links-container > .links .fa.fa-linkedin-square:hover {
       color: #000; }
+
+p {
+  text-align: justify; }
 
 hr {
   border: 1px dotted #A7A9AB;
